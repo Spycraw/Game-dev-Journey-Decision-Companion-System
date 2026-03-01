@@ -2,3 +2,4 @@ The initial idea is to create a game dev jourbey decision companion system.This 
 The idea is that first user select mode such as what game engine should they choose,what game should they make next,what skill should they learn.
 After that questions will be asked and decision is made according to the scoring system and user preferences and also reasoning will be provided.<br>
 Inorder for better scoring sytem which is not hardcoded i decided to add traits and according to the answers each trait is decided by the user and according to this traits the answer will be provided.<br>
+First according to the questions a user profile is created with traits and we run thorugh this traits and compare the answers traits and gives scores accordingly.With this its eaier to add new anwers and questions and traits.<br>
