@@ -1,9 +1,14 @@
 from modes.engine_mode import run_engine_mode
+from modes.gametype_mode import run_game_type_mode
 
 MODES = {
     "1": {
         "name": "Choose Game Engine",
         "handler": run_engine_mode
+    },
+    "2": {
+        "name": "Choose what game to make next",
+        "handler": run_game_type_mode
     }
 }
 
